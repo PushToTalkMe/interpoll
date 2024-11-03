@@ -1,0 +1,11 @@
+# node_modules у клиента и сервера
+/server/node_modules
+/client/node_modules
+
+#env у клиента и сервера
+/server/.env
+/client/.env
+
+#dist
+/server/dist
+/client/dist

@@ -1,0 +1,136 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  padding: 20px 60px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.inputPollQuestionForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 10px;
+}
+
+.inputPollQuestion {
+  width: 100%;
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inputPollQuestion::placeholder {
+  opacity: 0.5;
+}
+
+.inputOptionTitleForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.inputOptionWithDelete {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inputOptionTitle {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #b2ebf2;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inputOptionTitle::placeholder {
+  opacity: 0.5;
+  color: black;
+}
+
+.deleteOption {
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #dc157f;
+}
+
+.deleteOption:hover {
+  opacity: 0.5;
+}
+
+.addOption {
+  border: none;
+  width: 50%;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1593dc;
+}
+
+.addOption:hover {
+  opacity: 0.5;
+}
+
+.addOption:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.success {
+  color: green;
+  font-size: 12px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.count {
+  font-size: 10px;
+  top: 40px;
+  right: 5px;
+}
